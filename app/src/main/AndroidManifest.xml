@@ -21,7 +21,11 @@
             android:theme="@style/FullscreenTheme" />
         <activity
             android:name=".LoginScreen"
-            android:label="@string/title_activity_login_screen"></activity>
+            android:label="@string/title_activity_login_screen" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
