@@ -15,17 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeScreen"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_home_screen"
-            android:theme="@style/FullscreenTheme" />
-        <activity
             android:name=".LoginScreen"
-            android:label="@string/title_activity_login_screen" />
+            android:label="@string/title_activity_login_screen">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".HomePage"
             android:label="@string/title_activity_home_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateAccount"
+            android:label="@string/title_activity_create_account"
+            android:parentActivityName=".LoginScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.flipbait.flipbait.LoginScreen" />
+        </activity>
     </application>
 
 </manifest>
