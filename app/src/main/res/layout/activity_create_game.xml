@@ -20,7 +20,6 @@
             android:hint="Name"
             android:imeActionLabel="Name"
             android:imeOptions="actionUnspecified"
-            android:inputType="textName"
             android:maxLines="1"
             android:singleLine="true"/>
     </android.support.design.widget.TextInputLayout>
@@ -36,7 +35,6 @@
             android:hint="Email to send results to"
             android:imeActionLabel="Email"
             android:imeOptions="actionUnspecified"
-            android:inputType="textEmail"
             android:maxLines="1"
             android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
@@ -52,7 +50,6 @@
             android:hint="name for your game"
             android:imeActionLabel="Game ID"
             android:imeOptions="actionUnspecified"
-            android:inputType="textGameID"
             android:maxLines="1"
             android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
