@@ -33,6 +33,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.flipbait.flipbait.LoginScreen" />
         </activity>
+        <activity android:name=".CreateGame"></activity>
     </application>
 
 </manifest>
