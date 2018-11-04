@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "6242502815",
+    "firebase_url": "https://flipbait-be573.firebaseio.com",
+    "project_id": "flipbait-be573",
+    "storage_bucket": "flipbait-be573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6242502815:android:1bb311a5f2287dc2",
+        "android_client_info": {
+          "package_name": "com.flipbait.flipbait"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6242502815-a7lsbmtdq6hn494m2355dju2r2fm6t15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf5bxGkGAYwHyJf2_9axd7tY87FCBwRn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
